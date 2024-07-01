@@ -1,34 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="../tailwindcss.js"></script>
+    <!-- <link rel="stylesheet" href="../dist/main.css" /> -->
     <title>Document</title>
   </head>
   <body class="bg-[#14161a]">
-    <dl class="w-[220px] h-[351px] border border-solid border-black">
-      <dt class="w-full h-[294px] float-left">
-        <img src="./img/img_01.png" />
-      </dt>
-      <dd class="w-full h-[57px] float-left relative">
-        <p
-          class="w-full h-[16px] text-[16px]/[16px] text-[#f6f6f7] float-left mt-[11px]"
-        >
-          慕课网学习的好地方
-        </p>
-        <p
-          class="w-full h-[13px] text-[13px]/[13px] text-[#afaead] float-left mt-[11px]"
-        >
-          2.0万人已经预约
-        </p>
-        <a
-          href="#"
-          class="w-[51px] h-[23px] border border-solid border-[#170011] bg-[#02cc54] absolute bottom-0 right-0 text-center text-[12px]/[23px] text-[#fff] rounded-[3px]"
-        >
-          预约
-        </a>
-      </dd>
-    </dl>
+    <div class="h-[491px] w-[1439px]">
+      <div class="relative mt-[30px] h-[27px] w-full leading-[27px]">
+        <span class="float-left ml-[19px] text-[29px] text-gray-100">
+          即将上线
+        </span>
+        <span class="float-left ml-[11px] text-[16px] text-gray-100">
+          更多新片 >
+        </span>
+        <div class="absolute right-[19px] top-0 h-[22px] w-[54px]">
+          <img
+            class="absolute left-0 top-0 cursor-pointer"
+            src="./img/btn_icon_left.png"
+            alt=""
+          />
+          <img
+            class="absolute right-0 top-0 cursor-pointer"
+            src="./img/btn_icon.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div
+        class="xy-[19px] mx-auto h-[25px] w-[1401px] border-b-[2px] border-solid border-[#212326]"
+      ></div>
+      <dl class="h-[351px] w-[220px] border border-solid border-black">
+        <dt class="float-left h-[294px] w-full">
+          <img src="./img/img_01.png" />
+        </dt>
+        <dd class="relative float-left h-[57px] w-full">
+          <p
+            class="float-left mt-[11px] h-[16px] w-full text-[16px]/[16px] text-[#f6f6f7]"
+          >
+            慕课网学习的好地方
+          </p>
+          <p
+            class="float-left mt-[11px] h-[13px] w-full text-[13px]/[13px] text-[#afaead]"
+          >
+            2.0万人已经预约
+          </p>
+          <a
+            href="#"
+            class="absolute bottom-0 right-0 h-[23px] w-[51px] rounded-[3px] border border-solid border-[#170011] bg-[#02cc54] text-center text-[12px]/[23px] text-[#fff]"
+          >
+            预约
+          </a>
+        </dd>
+      </dl>
+    </div>
   </body>
 </html>
